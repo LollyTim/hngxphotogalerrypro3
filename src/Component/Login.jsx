@@ -50,7 +50,7 @@ function Login() {
     <div className='flex justify-center items-center h-screen ' >
       <div className='w-96 p-6 shadow-lg bg-white rounded-md'>
         <form onSubmit={handleLogin}>
-          <h1 className='text-center text-lg'>Login to my Gallery</h1>
+          <h1 className='text-center text-xl text-green-700 font-serif font-bold'>Login to my Gallery</h1>
           <label className='block text-base mb-2'>Email Address</label>
           <input
             type='email'
