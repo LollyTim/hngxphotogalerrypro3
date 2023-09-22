@@ -54,7 +54,7 @@ function Login() {
           <label className='block text-base mb-2'>Email Address</label>
           <input
             type='email'
-            placeholder='Email address'
+            placeholder='user@example.com'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -62,7 +62,7 @@ function Login() {
           <label className='block text-base mt-8'>Password</label>
           <input
             type='password'
-            placeholder='Enter password'
+            placeholder='!Password'
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required

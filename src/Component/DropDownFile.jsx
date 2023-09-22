@@ -103,7 +103,7 @@ function DropDownFile() {
       <div className='h-[150px] w-[300px] mx-auto rounded-xl border-[2px] border-dashed border-green-600 text-green-500 flex justify-center mt-3 items-center' onDragOver={onDragOver} onDragLeave={onDragLeave} onDrop={onDrop}>
          {isLoading ? (
            
-            <div className=' animate-pulse w-12 h-12 rounded-full'>Mentors pls wait as my app loads</div>
+            <div className=' animate-pulse w-32 h-12 rounded-full'>Mentors pls wait as my app loads</div>
           ) : isDragging ? (
             <span className='bg-gray-300  justify-center'>Drop Images here</span>
           ) : (
