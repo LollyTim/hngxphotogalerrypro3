@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react"  
 import DropDownFile from "./Component/DropDownFile";
-// import Login from './Component/Login';
-// import {  Routes, Route} from 'react-router-dom';
+import Login from './Component/Login';
+import {  Routes, Route} from 'react-router-dom';
 
 function App() {
 
@@ -39,11 +39,11 @@ const [isLoading, setIsLoading] = useState(true);
               </div>
              </div>
            ) : (
-        //       <Routes>
-				// <Route path='/' element={<Login  />}/>
-				// <Route path='/' element={<DropDownFile  />}/>
-			// </Routes>
-             <DropDownFile  />
+              <Routes>
+				<Route path='/' element={<Login  />}/>
+				<Route path='/DropDownFile' element={<DropDownFile  />}/>
+			</Routes>
+      //        <DropDownFile  />
              )}
     </div>
   );
