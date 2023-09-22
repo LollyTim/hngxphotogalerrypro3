@@ -62,13 +62,13 @@ function Login() {
           <label className='block text-base mt-8'>Password</label>
           <input
             type='password'
-            placeholder='!Password'
+            placeholder='1Password'
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
             className='border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-green-600 rounded-lg mt-5'
           />
-          <button type='submit' onClick={handleClick} onSubmit={handleLogin} className='border w-50% text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-green-600 rounded-lg mt-5 justify-center items-center ml-[40%]' >Login</button>
+          <button type='submit' onClick={handleClick} onSubmit={handleLogin} className=' bg-green-500 border w-50% text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-green-600 rounded-lg mt-5 justify-center items-center ml-[40%]' >Login</button>
         </form>
       </div>
     </div>
